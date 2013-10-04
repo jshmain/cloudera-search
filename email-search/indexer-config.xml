@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<indexer table="emails" mapper="com.ngdata.hbaseindexer.morphline.MorphlineResultToSolrMapper">
+<indexer table="inbox" mapper="com.ngdata.hbaseindexer.morphline.MorphlineResultToSolrMapper" mapping-type="column" >
 
    <!-- The relative or absolute path on the local file system to the morphline configuration file. -->
    <!-- Use relative path "morphlines.conf" for morphlines managed by Cloudera Manager -->
