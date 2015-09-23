@@ -1,3 +1,5 @@
+package com.cloudera.sa.OCR
+
 import org.bytedeco.javacpp.lept._;
 import org.bytedeco.javacpp.tesseract._;
 import java.io.ByteArrayOutputStream;
