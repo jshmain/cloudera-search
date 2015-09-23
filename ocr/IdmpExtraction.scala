@@ -36,8 +36,6 @@ object IdmpExtraction {
     /** Read in PDFs into the RDD */
     val files = sc.binaryFiles ("hdfs://nameservice1/data/raw")
     files.map(convertFunc(_)).count
-    files.map(convertFunc(_)).take(args (0) );
-
   }
 
 
