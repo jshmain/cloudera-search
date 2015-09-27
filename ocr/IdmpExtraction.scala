@@ -1,3 +1,8 @@
+/** 
+ * @author Jeff Shmain
+ * @author Vartika Singh
+ * /
+
 package com.cloudera.sa.OCR
 
 import org.bytedeco.javacpp.lept._;
