@@ -59,7 +59,7 @@ object IdmpExtraction {
     /** Configure and open a HBase connection */
     val conf = HBaseConfiguration.create()
     val conn=  ConnectionFactory.createConnection( conf );
-    val mddsTbl = _conn.getTable( TableName.valueOf( "mdds" ));
+    val mddsTbl = conn.getTable( TableName.valueOf( "mdds" ));
     val cf = "info"
     val put = new Put( Bytes.toBytes( fileName ))
 
